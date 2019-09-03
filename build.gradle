@@ -1,9 +1,10 @@
 plugins {
     id 'application'
+    id 'groovy'
 }
 
+version '1.1'
 group 'pl.komorowskidev'
-version '1.0'
 
 application{
     mainClassName('pl.komorowskidev.designpatternsjavaimplementation.ApplicationLauncher')
@@ -16,5 +17,5 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile "org.spockframework:spock-core:1.1-groovy-2.4-rc-2"
 }

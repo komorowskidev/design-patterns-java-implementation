@@ -3,6 +3,10 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.2
+
+adding Fluent Builder
+ 
 ## v1.1 
 
 adding Singleton implementations

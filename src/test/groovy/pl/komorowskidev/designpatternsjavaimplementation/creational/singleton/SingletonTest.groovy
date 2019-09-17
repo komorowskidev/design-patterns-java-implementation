@@ -1,10 +1,11 @@
+package pl.komorowskidev.designpatternsjavaimplementation.creational.singleton
+
 import pl.komorowskidev.designpatternsjavaimplementation.creational.singleton.BestSingleton
 import spock.lang.Specification
 
 import java.util.concurrent.ConcurrentLinkedQueue
 
 class SingletonTest extends Specification{
-
 
     def "every instance should be the same object and shouldn't be null"(){
         given:

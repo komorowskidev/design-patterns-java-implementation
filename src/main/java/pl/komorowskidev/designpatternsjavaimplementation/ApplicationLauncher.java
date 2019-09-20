@@ -1,5 +1,6 @@
 package pl.komorowskidev.designpatternsjavaimplementation;
 
+import pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod.HowToUseFactoryMethod;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.fluentbuilder.HowToUseFluentBuilder;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.singleton.HowToUseSingleton;
 
@@ -13,5 +14,8 @@ public class ApplicationLauncher {
 
         HowToUseFluentBuilder howToUseFluentBuilder = new HowToUseFluentBuilder();
         howToUseFluentBuilder.use();
+
+        HowToUseFactoryMethod howToUseFactoryMethod = new HowToUseFactoryMethod();
+        howToUseFactoryMethod.use();
     }
 }

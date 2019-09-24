@@ -1,6 +1,6 @@
 package pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod;
 
-public enum CountriesEnum {
+public enum CountryEnum {
 
     POLAND, AUSTRALIA, OTHER;
 }

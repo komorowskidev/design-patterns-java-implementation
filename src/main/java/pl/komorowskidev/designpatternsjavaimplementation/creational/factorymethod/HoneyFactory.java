@@ -2,7 +2,7 @@ package pl.komorowskidev.designpatternsjavaimplementation.creational.factorymeth
 
 public class HoneyFactory {
 
-    public Honey getHoney(CountriesEnum country){
+    public Honey getHoney(CountryEnum country){
         Honey honey;
         switch(country){
             case POLAND:

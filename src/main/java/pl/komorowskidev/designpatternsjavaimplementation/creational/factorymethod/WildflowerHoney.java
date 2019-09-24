@@ -8,12 +8,12 @@ public class WildflowerHoney implements Honey {
     }
 
     @Override
-    public int getJarCapacity() {
+    public int getJarCapacityInMililiters() {
         return 1000;
     }
 
     @Override
-    public double getPrice() {
+    public double getPriceInUSD() {
         return 49.9;
     }
 }

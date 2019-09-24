@@ -9,7 +9,7 @@ class FactoryMethodTest extends Specification {
         HoneyFactory factory = new HoneyFactory()
 
         when:
-        Honey honey = factory.getHoney(CountriesEnum.POLAND)
+        Honey honey = factory.getHoney(CountryEnum.POLAND)
 
         then:
         honey instanceof AcaciaHoney
@@ -20,7 +20,7 @@ class FactoryMethodTest extends Specification {
         HoneyFactory factory = new HoneyFactory()
 
         when:
-        Honey honey = factory.getHoney(CountriesEnum.AUSTRALIA)
+        Honey honey = factory.getHoney(CountryEnum.AUSTRALIA)
 
         then:
         honey instanceof EucalyptusHoney
@@ -31,7 +31,7 @@ class FactoryMethodTest extends Specification {
         HoneyFactory factory = new HoneyFactory()
 
         when:
-        Honey honey = factory.getHoney(CountriesEnum.OTHER)
+        Honey honey = factory.getHoney(CountryEnum.OTHER)
 
         then:
         honey instanceof WildflowerHoney

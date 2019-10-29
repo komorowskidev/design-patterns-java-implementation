@@ -1,4 +1,4 @@
-package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory;
+package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.candle;
 
 public interface Candle {
 

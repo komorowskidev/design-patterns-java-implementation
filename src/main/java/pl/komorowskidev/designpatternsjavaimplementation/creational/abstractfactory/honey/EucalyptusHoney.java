@@ -1,4 +1,6 @@
-package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory;
+package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.honey;
+
+import lombok.ToString;
 
 public class EucalyptusHoney implements Honey {
 

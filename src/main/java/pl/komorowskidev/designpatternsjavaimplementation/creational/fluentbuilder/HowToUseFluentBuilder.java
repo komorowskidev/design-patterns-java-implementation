@@ -5,7 +5,7 @@ import java.awt.*;
 public class HowToUseFluentBuilder {
 
     public void use(){
-        System.out.println("Fluent Builder");
+        System.out.println("FLUENT BUILDER");
         Car car = Car.builder()
                 .manufacturer("Ford")
                 .model("Focus")

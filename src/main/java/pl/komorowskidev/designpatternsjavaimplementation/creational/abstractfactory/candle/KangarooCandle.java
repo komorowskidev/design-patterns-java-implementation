@@ -1,4 +1,6 @@
-package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory;
+package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.candle;
+
+import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.candle.Candle;
 
 public class KangarooCandle implements Candle {
 

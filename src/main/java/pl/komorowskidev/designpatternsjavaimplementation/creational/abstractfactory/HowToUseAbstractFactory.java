@@ -1,25 +1,25 @@
 package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory;
 
+import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.candle.Candle;
+import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.factory.AustralianBeeProductsFactory;
+import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.factory.BeeProductsFactory;
+import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.factory.PolishBeeProductsFactory;
+import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.honey.Honey;
+
 public class HowToUseAbstractFactory {
 
     public void use(){
-        System.out.println("Abstract Factory");
-        FactoryProvider factoryProvider = new FactoryProvider();
-
-        ParcelMaker polishParcelMaker = null;
-        try {
-            polishParcelMaker = new ParcelMaker(factoryProvider.getFactory(CountryEnum.POLAND));
-            System.out.println("POLAND: " + polishParcelMaker.getParcelDescription());
-        } catch (UknownCountryException e) {
-            System.out.println(e.getMessage());
-        }
-
-        ParcelMaker australianParcelMaker = null;
-        try {
-            australianParcelMaker = new ParcelMaker(factoryProvider.getFactory(CountryEnum.AUSTRALIA));
-            System.out.println("AUSTRALIA: " + australianParcelMaker.getParcelDescription());
-        } catch (UknownCountryException e) {
-            System.out.println(e.getMessage());
-        }
+        System.out.println("ABSTRACT FACTORY");
+        BeeProductsFactory polishBeeProductsFactory = new PolishBeeProductsFactory();
+        BeeProductsFactory australianBeeProductsFactory = new AustralianBeeProductsFactory();
+        Honey polishHoney = polishBeeProductsFactory.getHoney();
+        Candle polishCandle = polishBeeProductsFactory.getCandle();
+        Honey australianHoney = australianBeeProductsFactory.getHoney();
+        Candle australianCandle = australianBeeProductsFactory.getCandle();
+        System.out.println(polishHoney.getDescription());
+        System.out.println(polishCandle.getDescription());
+        System.out.println(australianHoney.getDescription());
+        System.out.println(australianCandle.getDescription());
     }
+
 }

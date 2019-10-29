@@ -1,4 +1,4 @@
-package pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod;
+package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.honey;
 
 public interface Honey {
 

@@ -1,4 +1,6 @@
-package pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod;
+package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.honey;
+
+import lombok.ToString;
 
 public class AcaciaHoney implements Honey {
 
@@ -8,12 +10,12 @@ public class AcaciaHoney implements Honey {
     }
 
     @Override
-    public int getJarCapacity() {
+    public int getJarCapacityInMililiters() {
         return 700;
     }
 
     @Override
-    public double getPrice() {
+    public double getPriceInUSD() {
         return 44.5;
     }
 }

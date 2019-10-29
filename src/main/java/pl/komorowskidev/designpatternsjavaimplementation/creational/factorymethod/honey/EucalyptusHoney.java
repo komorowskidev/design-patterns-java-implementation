@@ -1,4 +1,4 @@
-package pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod;
+package pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod.honey;
 
 public class EucalyptusHoney implements Honey {
 
@@ -8,12 +8,12 @@ public class EucalyptusHoney implements Honey {
     }
 
     @Override
-    public int getJarCapacity() {
+    public int getJarCapacityInMililiters() {
         return 5000;
     }
 
     @Override
-    public double getPrice() {
+    public double getPriceInUSD() {
         return 79.9;
     }
 }

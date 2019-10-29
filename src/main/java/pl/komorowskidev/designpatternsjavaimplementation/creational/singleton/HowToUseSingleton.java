@@ -3,7 +3,7 @@ package pl.komorowskidev.designpatternsjavaimplementation.creational.singleton;
 public class HowToUseSingleton {
 
     public void use(){
-        System.out.println("Singleton");
+        System.out.println("SINGLETON");
         BestSingleton bestSingleton1 = BestSingleton.getInstance();
         BestSingleton bestSingleton2 = BestSingleton.getInstance();
         System.out.println(bestSingleton1);

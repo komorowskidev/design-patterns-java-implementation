@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.4
+
+adding Abstract Factory
+* Abstract Factory provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
 ## v1.3
 
 adding Factory Method

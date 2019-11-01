@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.5
+
+adding Strategy
+
+
 ## v1.4
 
 adding Abstract Factory

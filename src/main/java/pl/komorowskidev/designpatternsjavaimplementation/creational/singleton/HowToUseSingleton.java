@@ -1,7 +1,10 @@
 package pl.komorowskidev.designpatternsjavaimplementation.creational.singleton;
 
-public class HowToUseSingleton {
+import pl.komorowskidev.designpatternsjavaimplementation.HowToUse;
 
+public class HowToUseSingleton implements HowToUse {
+
+    @Override
     public void use(){
         System.out.println("SINGLETON");
         BestSingleton bestSingleton1 = BestSingleton.getInstance();

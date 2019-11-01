@@ -1,9 +1,12 @@
 package pl.komorowskidev.designpatternsjavaimplementation.creational.fluentbuilder;
 
+import pl.komorowskidev.designpatternsjavaimplementation.HowToUse;
+
 import java.awt.*;
 
-public class HowToUseFluentBuilder {
+public class HowToUseFluentBuilder implements HowToUse {
 
+    @Override
     public void use(){
         System.out.println("FLUENT BUILDER");
         Car car = Car.builder()

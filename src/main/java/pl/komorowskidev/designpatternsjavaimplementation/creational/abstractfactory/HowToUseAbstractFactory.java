@@ -1,13 +1,15 @@
 package pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory;
 
+import pl.komorowskidev.designpatternsjavaimplementation.HowToUse;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.candle.Candle;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.factory.AustralianBeeProductsFactory;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.factory.BeeProductsFactory;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.factory.PolishBeeProductsFactory;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.honey.Honey;
 
-public class HowToUseAbstractFactory {
+public class HowToUseAbstractFactory implements HowToUse {
 
+    @Override
     public void use(){
         System.out.println("ABSTRACT FACTORY");
         BeeProductsFactory polishBeeProductsFactory = new PolishBeeProductsFactory();

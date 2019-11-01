@@ -1,5 +1,6 @@
 package pl.komorowskidev.designpatternsjavaimplementation;
 
+import pl.komorowskidev.designpatternsjavaimplementation.behavioral.strategy.HowToUseStrategy;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.HowToUseAbstractFactory;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod.HowToUseFactoryMethod;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.fluentbuilder.HowToUseFluentBuilder;
@@ -10,17 +11,20 @@ public class ApplicationLauncher {
     public static void main(String[] args) {
         System.out.println("Design patterns - java implementation");
         System.out.println("-----------------------");
-        HowToUseSingleton howToUseSingleton = new HowToUseSingleton();
+        HowToUse howToUseSingleton = new HowToUseSingleton();
         howToUseSingleton.use();
         System.out.println("-----------------------");
-        HowToUseFluentBuilder howToUseFluentBuilder = new HowToUseFluentBuilder();
+        HowToUse howToUseFluentBuilder = new HowToUseFluentBuilder();
         howToUseFluentBuilder.use();
         System.out.println("-----------------------");
-        HowToUseFactoryMethod howToUseFactoryMethod = new HowToUseFactoryMethod();
+        HowToUse howToUseFactoryMethod = new HowToUseFactoryMethod();
         howToUseFactoryMethod.use();
         System.out.println("-----------------------");
-        HowToUseAbstractFactory howToUseAbstractFactory = new HowToUseAbstractFactory();
+        HowToUse howToUseAbstractFactory = new HowToUseAbstractFactory();
         howToUseAbstractFactory.use();
+        System.out.println("-----------------------");
+        HowToUse howToUseStrategy = new HowToUseStrategy();
+        howToUseStrategy.use();
         System.out.println("-----------------------");
     }
 }

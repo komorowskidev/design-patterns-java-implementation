@@ -6,7 +6,7 @@ testing with Spock Framework
 ## v1.6
 
 adding Observer
-* Observable maintains a list of its dependents objects, called observers, and notifies them automatically of any state changes.
+* Observable maintains a list of its dependents objects, called observers, and notifies them of any state changes.
 
 ## v1.5
 

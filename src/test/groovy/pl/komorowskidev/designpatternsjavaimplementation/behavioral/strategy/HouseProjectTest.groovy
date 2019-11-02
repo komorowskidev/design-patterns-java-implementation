@@ -1,4 +1,4 @@
-package pl.komorowskidev.designpatternsjavaimplementation.behavioral
+package pl.komorowskidev.designpatternsjavaimplementation.behavioral.strategy
 
 
 import pl.komorowskidev.designpatternsjavaimplementation.behavioral.strategy.heatingstrategy.HeatingStrategy

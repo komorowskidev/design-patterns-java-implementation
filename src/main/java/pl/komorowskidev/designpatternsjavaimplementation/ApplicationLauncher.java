@@ -1,5 +1,6 @@
 package pl.komorowskidev.designpatternsjavaimplementation;
 
+import pl.komorowskidev.designpatternsjavaimplementation.behavioral.observer.HowToUseObserver;
 import pl.komorowskidev.designpatternsjavaimplementation.behavioral.strategy.HowToUseStrategy;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.HowToUseAbstractFactory;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod.HowToUseFactoryMethod;
@@ -26,5 +27,7 @@ public class ApplicationLauncher {
         HowToUse howToUseStrategy = new HowToUseStrategy();
         howToUseStrategy.use();
         System.out.println("-----------------------");
+        HowToUse howToUseObserver = new HowToUseObserver();
+        howToUseObserver.use();
     }
 }

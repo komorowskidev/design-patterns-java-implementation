@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.6
+
+adding Observer
+* Observable maintains a list of its dependents objects, called observers, and notifies them of any state changes.
+
 ## v1.5
 
 adding Strategy

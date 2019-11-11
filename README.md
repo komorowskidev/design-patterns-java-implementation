@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.7
+
+adding Decorator
+* This pattern lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+
 ## v1.6
 
 adding Observer

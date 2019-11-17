@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.8
+
+adding Command
+* This pattern encapsulates a request as an object, thereby letting us parameterize other objects with different requests.
+
 ## v1.7
 
 adding Decorator

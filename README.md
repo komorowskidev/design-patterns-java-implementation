@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.9
+
+adding Adapter
+* This pattern converts the interface of a class into another interface clients expect.
+
 ## v1.8
 
 adding Command

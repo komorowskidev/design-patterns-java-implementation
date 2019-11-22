@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.10
+
+adding Facade
+* Encapsulates a complex subsystem behind a simple interface.
+
 ## v1.9
 
 adding Adapter

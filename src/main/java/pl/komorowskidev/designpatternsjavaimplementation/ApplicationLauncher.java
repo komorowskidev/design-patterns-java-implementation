@@ -9,6 +9,7 @@ import pl.komorowskidev.designpatternsjavaimplementation.creational.fluentbuilde
 import pl.komorowskidev.designpatternsjavaimplementation.creational.singleton.HowToUseSingleton;
 import pl.komorowskidev.designpatternsjavaimplementation.structural.adapter.HowToUseAdapter;
 import pl.komorowskidev.designpatternsjavaimplementation.structural.decorator.HowToUseDecorator;
+import pl.komorowskidev.designpatternsjavaimplementation.structural.facade.HowToUseFacade;
 
 public class ApplicationLauncher {
 
@@ -41,5 +42,8 @@ public class ApplicationLauncher {
         System.out.println("-----------------------");
         HowToUse howToUseAdapter = new HowToUseAdapter();
         howToUseAdapter.use();
+        System.out.println("-----------------------");
+        HowToUse howToUseFacade = new HowToUseFacade();
+        howToUseFacade.use();
     }
 }

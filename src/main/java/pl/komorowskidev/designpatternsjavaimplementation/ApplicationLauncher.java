@@ -7,6 +7,7 @@ import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfact
 import pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod.HowToUseFactoryMethod;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.fluentbuilder.HowToUseFluentBuilder;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.singleton.HowToUseSingleton;
+import pl.komorowskidev.designpatternsjavaimplementation.structural.adapter.HowToUseAdapter;
 import pl.komorowskidev.designpatternsjavaimplementation.structural.decorator.HowToUseDecorator;
 
 public class ApplicationLauncher {
@@ -37,5 +38,8 @@ public class ApplicationLauncher {
         System.out.println("-----------------------");
         HowToUse howToUseCommand = new HowToUseCommand();
         howToUseCommand.use();
+        System.out.println("-----------------------");
+        HowToUse howToUseAdapter = new HowToUseAdapter();
+        howToUseAdapter.use();
     }
 }

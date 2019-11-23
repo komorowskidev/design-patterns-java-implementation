@@ -1,4 +1,4 @@
-package pl.komorowskidev.designpatternsjavaimplementation.structural.decorator
+package pl.komorowskidev.designpatternsjavaimplementation.structural.facade
 
 import pl.komorowskidev.designpatternsjavaimplementation.structural.facade.Bath
 import pl.komorowskidev.designpatternsjavaimplementation.structural.facade.Book

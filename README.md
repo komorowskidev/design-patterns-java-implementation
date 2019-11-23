@@ -3,6 +3,14 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.11
+
+adding Proxy
+* Allows us to create an intermediary that acts as an interface to another resource. We should use this pattern:
+ 1. when we want a simplified version of a complex or heavy object (Virtual Proxy) 
+ 2. when the original object is present in different address space, and we want to represent it locally (Remote Proxy) 
+ 3. when we want to add a layer of security to the original underlying object to provide controlled access based on access rights of the client (Protection Proxy)
+
 ## v1.10
 
 adding Facade

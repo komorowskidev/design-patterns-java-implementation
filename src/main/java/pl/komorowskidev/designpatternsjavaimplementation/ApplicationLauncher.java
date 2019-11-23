@@ -10,6 +10,7 @@ import pl.komorowskidev.designpatternsjavaimplementation.creational.singleton.Ho
 import pl.komorowskidev.designpatternsjavaimplementation.structural.adapter.HowToUseAdapter;
 import pl.komorowskidev.designpatternsjavaimplementation.structural.decorator.HowToUseDecorator;
 import pl.komorowskidev.designpatternsjavaimplementation.structural.facade.HowToUseFacade;
+import pl.komorowskidev.designpatternsjavaimplementation.structural.proxy.HowToUseProxy;
 
 public class ApplicationLauncher {
 
@@ -45,5 +46,8 @@ public class ApplicationLauncher {
         System.out.println("-----------------------");
         HowToUse howToUseFacade = new HowToUseFacade();
         howToUseFacade.use();
+        System.out.println("-----------------------");
+        HowToUse howToUseProxy = new HowToUseProxy();
+        howToUseProxy.use();
     }
 }

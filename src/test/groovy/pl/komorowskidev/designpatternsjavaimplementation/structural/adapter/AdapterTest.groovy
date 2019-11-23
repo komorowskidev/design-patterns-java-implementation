@@ -1,4 +1,4 @@
-package pl.komorowskidev.designpatternsjavaimplementation.structural.decorator
+package pl.komorowskidev.designpatternsjavaimplementation.structural.adapter
 
 import pl.komorowskidev.designpatternsjavaimplementation.structural.adapter.Adapter
 import pl.komorowskidev.designpatternsjavaimplementation.structural.adapter.SomeLibraryPointOnMap

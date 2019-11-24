@@ -8,6 +8,7 @@ import pl.komorowskidev.designpatternsjavaimplementation.creational.factorymetho
 import pl.komorowskidev.designpatternsjavaimplementation.creational.fluentbuilder.HowToUseFluentBuilder;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.singleton.HowToUseSingleton;
 import pl.komorowskidev.designpatternsjavaimplementation.structural.adapter.HowToUseAdapter;
+import pl.komorowskidev.designpatternsjavaimplementation.structural.bridge.HowToUseBridge;
 import pl.komorowskidev.designpatternsjavaimplementation.structural.decorator.HowToUseDecorator;
 import pl.komorowskidev.designpatternsjavaimplementation.structural.facade.HowToUseFacade;
 import pl.komorowskidev.designpatternsjavaimplementation.structural.proxy.HowToUseProxy;
@@ -49,5 +50,8 @@ public class ApplicationLauncher {
         System.out.println("-----------------------");
         HowToUse howToUseProxy = new HowToUseProxy();
         howToUseProxy.use();
+        System.out.println("-----------------------");
+        HowToUse howToUseBridge = new HowToUseBridge();
+        howToUseBridge.use();
     }
 }

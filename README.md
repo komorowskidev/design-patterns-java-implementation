@@ -1,7 +1,12 @@
-# design-patterns-java-implementation
+# Design patterns - implementation examples
 
 java implementation of some design patterns
 testing with Spock Framework
+
+## v1.12
+
+adding Bridge
+* This pattern is used to decouple an abstraction from its implementation so that the two can vary independently.
 
 ## v1.11
 

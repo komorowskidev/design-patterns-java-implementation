@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.13
+
+adding Template Method
+* This pattern lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
+
 ## v1.12
 
 adding Bridge

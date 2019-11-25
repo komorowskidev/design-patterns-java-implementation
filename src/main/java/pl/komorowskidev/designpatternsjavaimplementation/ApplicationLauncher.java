@@ -3,6 +3,7 @@ package pl.komorowskidev.designpatternsjavaimplementation;
 import pl.komorowskidev.designpatternsjavaimplementation.behavioral.command.HowToUseCommand;
 import pl.komorowskidev.designpatternsjavaimplementation.behavioral.observer.HowToUseObserver;
 import pl.komorowskidev.designpatternsjavaimplementation.behavioral.strategy.HowToUseStrategy;
+import pl.komorowskidev.designpatternsjavaimplementation.behavioral.templatemethod.HowToUseTemplateMethod;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.HowToUseAbstractFactory;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.factorymethod.HowToUseFactoryMethod;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.fluentbuilder.HowToUseFluentBuilder;
@@ -53,5 +54,8 @@ public class ApplicationLauncher {
         System.out.println("-----------------------");
         HowToUse howToUseBridge = new HowToUseBridge();
         howToUseBridge.use();
+        System.out.println("-----------------------");
+        HowToUse howToUseTemplateMethod = new HowToUseTemplateMethod();
+        howToUseTemplateMethod.use();
     }
 }

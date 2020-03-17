@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.15
+
+adding State
+* Allow the object for changing its behavior without changing its class.
+
 ## v1.14
 
 adding Composite

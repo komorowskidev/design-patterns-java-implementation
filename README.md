@@ -3,6 +3,11 @@
 java implementation of some design patterns
 testing with Spock Framework
 
+## v1.14
+
+adding Composite
+* Compose objects into tree structure to represent part-whole hierarchies. Composite lets client treat individual objects and compositions of objects uniformly.
+
 ## v1.13
 
 adding Template Method

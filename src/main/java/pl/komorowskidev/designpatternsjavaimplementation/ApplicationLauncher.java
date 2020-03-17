@@ -2,6 +2,7 @@ package pl.komorowskidev.designpatternsjavaimplementation;
 
 import pl.komorowskidev.designpatternsjavaimplementation.behavioral.command.HowToUseCommand;
 import pl.komorowskidev.designpatternsjavaimplementation.behavioral.observer.HowToUseObserver;
+import pl.komorowskidev.designpatternsjavaimplementation.behavioral.state.HowToUseState;
 import pl.komorowskidev.designpatternsjavaimplementation.behavioral.strategy.HowToUseStrategy;
 import pl.komorowskidev.designpatternsjavaimplementation.behavioral.templatemethod.HowToUseTemplateMethod;
 import pl.komorowskidev.designpatternsjavaimplementation.creational.abstractfactory.HowToUseAbstractFactory;
@@ -61,5 +62,9 @@ public class ApplicationLauncher {
         System.out.println("-----------------------");
         HowToUse howToUseComposite = new HowToUseComposite();
         howToUseComposite.use();
+        System.out.println("-----------------------");
+        HowToUse howToUseState = new HowToUseState();
+        howToUseState.use();
+        System.out.println("-----------------------");
     }
 }
